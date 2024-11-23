@@ -8,3 +8,6 @@ Deuxième changement après test du tests_fraction.py :
                       Correction de la logique de la méthode is_adjacent_to pour calculer correctement si deux fractions diffèrent par une fraction unitaire.
                                 Raison : Le calcul incorrect du numérateur causait des erreurs dans l'évaluation de fractions adjacentes.
 
+Troisième changement après test du tests_fraction.py : 
+                      Ajout de la simplification explicite dans is_adjacent_to.
+                                Raison : La méthode précédente évaluait la différence sans la réduire, ce qui causait un échec dans les tests.
