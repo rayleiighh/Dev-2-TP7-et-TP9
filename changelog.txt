@@ -1,1 +1,8 @@
 Ici est l'historique des changements lors de l'implémentation de la classe Fraction ! 
+
+Premier changement après test du tests_fraction.py : 
+                      Correction de la méthode is_adjacent_to pour identifier correctement les fractions adjacentes.  
+                                Raison : La méthode précédente ne renvoyait pas True pour des fractions adjacentes comme 1/3 et 2/3.
+
+Deuxième changement après test du tests_fraction.py :
+                      
