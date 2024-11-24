@@ -1,6 +1,6 @@
 import unittest
 import math
-from implemented_fraction import Fraction  # Remplacez par le nom de votre fichier
+from implemented_fraction import Fraction 
 
 
 class TestFraction(unittest.TestCase):
