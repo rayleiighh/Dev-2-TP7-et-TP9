@@ -1,5 +1,5 @@
-# test_fraction.py
-from implemented_fraction import Fraction
+
+from implemented_fraction  import Fraction
 
 def main():
     try:
@@ -16,7 +16,7 @@ def main():
         print("f1 is zero:", f1.is_zero())
         print("f3 is zero:", f3.is_zero())
         print("f2 is integer:", f2.is_integer())
-        print("Fraction 3 is proper:", f3.is_proper())
+        print("f3 is proper:", f3.is_proper())
 
         # Test des opérateurs arithmétiques
         f4 = f1 + f2
