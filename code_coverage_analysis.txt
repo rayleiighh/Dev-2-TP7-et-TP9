@@ -1,0 +1,126 @@
+
+# Analyse de Code Coverage
+
+## Résumé général :
+- **Fichier analysé :** implemented_fraction.py et tests_unitaires.py
+- **Total des lignes :** 66
+- **Lignes couvertes :** 60
+- **Lignes non couvertes :** 6
+- **Taux de couverture global :** 91%
+
+---
+
+## Détails par fonction :
+
+### implemented_fraction.py
+1. **Fraction.__init__**
+   - Lignes totales : 12
+   - Lignes couvertes : 8
+   - Lignes non couvertes : 4
+   - Couverture : 67%
+
+2. **Fraction.numerator**
+   - Lignes totales : 1
+   - Lignes couvertes : 1
+   - Lignes non couvertes : 0
+   - Couverture : 100%
+
+3. **Fraction.denominator**
+   - Lignes totales : 1
+   - Lignes couvertes : 1
+   - Lignes non couvertes : 0
+   - Couverture : 100%
+
+4. **Fraction.__str__**
+   - Lignes totales : 1
+   - Lignes couvertes : 0
+   - Lignes non couvertes : 1
+   - Couverture : 0%
+
+5. **Fraction.__eq__**
+   - Lignes totales : 3
+   - Lignes couvertes : 2
+   - Lignes non couvertes : 1
+   - Couverture : 67%
+
+6. **Fraction.as_mixed_number**
+   - Lignes totales : 6
+   - Lignes couvertes : 6
+   - Lignes non couvertes : 0
+   - Couverture : 100%
+
+7. **Fraction.is_zero**
+   - Lignes totales : 1
+   - Lignes couvertes : 1
+   - Lignes non couvertes : 0
+   - Couverture : 100%
+
+8. **Fraction.is_integer**
+   - Lignes totales : 1
+   - Lignes couvertes : 1
+   - Lignes non couvertes : 0
+   - Couverture : 100%
+
+9. **Fraction.is_proper**
+   - Lignes totales : 1
+   - Lignes couvertes : 1
+   - Lignes non couvertes : 0
+   - Couverture : 100%
+
+10. **Fraction.is_unit**
+    - Lignes totales : 1
+    - Lignes couvertes : 1
+    - Lignes non couvertes : 0
+    - Couverture : 100%
+
+11. **(no function)**
+    - Lignes totales : 14
+    - Lignes couvertes : 14
+    - Lignes non couvertes : 0
+    - Couverture : 100%
+
+---
+
+### tests_unitaires.py
+1. **TestFractionAdvancedFeatures.test_as_mixed_number**
+   - Lignes totales : 3
+   - Lignes couvertes : 3
+   - Lignes non couvertes : 0
+   - Couverture : 100%
+
+2. **TestFractionAdvancedFeatures.test_equality**
+   - Lignes totales : 2
+   - Lignes couvertes : 2
+   - Lignes non couvertes : 0
+   - Couverture : 100%
+
+3. **TestFractionAdvancedFeatures.test_is_zero**
+   - Lignes totales : 2
+   - Lignes couvertes : 2
+   - Lignes non couvertes : 0
+   - Couverture : 100%
+
+4. **TestFractionAdvancedFeatures.test_is_integer**
+   - Lignes totales : 2
+   - Lignes couvertes : 2
+   - Lignes non couvertes : 0
+   - Couverture : 100%
+
+5. **TestFractionAdvancedFeatures.test_is_proper**
+   - Lignes totales : 2
+   - Lignes couvertes : 2
+   - Lignes non couvertes : 0
+   - Couverture : 100%
+
+6. **TestFractionAdvancedFeatures.test_is_unit**
+   - Lignes totales : 2
+   - Lignes couvertes : 2
+   - Lignes non couvertes : 0
+   - Couverture : 100%
+
+7. **(no function)**
+   - Lignes totales : 11
+   - Lignes couvertes : 11
+   - Lignes non couvertes : 0
+   - Couverture : 100%
+
